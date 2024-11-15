@@ -1,16 +1,16 @@
 ﻿#Script by Jonicorn c;
 
 #Install Programs
-winget install -e --id Parsec.Parsec
-winget install -e --id Bitwarden.Bitwarden
-winget install -e --id Valve.Steam
-winget install -e --id Discord.Discord
-winget install -e --id Spotify.Spotify
-winget install -e --id Microsoft.Office  
-winget install -e --id Nvidia.GeForceExperience
-winget install -e --id RiotGames.LeagueOfLegends.EUW
-winget install -e --id RiotGames.LeagueOfLegends.PBE
-winget install -e --id RiotGames.Valorant.EU
+winget install -e --id Parsec.Parsec --accept-package-agreements --accept-source-agreements
+winget install -e --id Bitwarden.Bitwarden --accept-package-agreements --accept-source-agreements
+winget install -e --id Valve.Steam --accept-package-agreements --accept-source-agreements
+winget install -e --id Discord.Discord --accept-package-agreements --accept-source-agreements
+winget install -e --id Spotify.Spotify --accept-package-agreements --accept-source-agreements
+winget install -e --id Microsoft.Office --accept-package-agreements --accept-source-agreements
+winget install -e --id Nvidia.GeForceExperience --accept-package-agreements --accept-source-agreements
+winget install -e --id RiotGames.LeagueOfLegends.EUW --accept-package-agreements --accept-source-agreements
+winget install -e --id RiotGames.LeagueOfLegends.PBE --accept-package-agreements --accept-source-agreements
+winget install -e --id RiotGames.Valorant.EU --accept-package-agreements --accept-source-agreements
 
 #visual settings
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name AppsUseLightTheme -Value 0           #Enable Darkmode
